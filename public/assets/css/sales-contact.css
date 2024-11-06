@@ -1,0 +1,15 @@
+.custom-margin {
+    margin-top: 2.6rem !important; /* Menambahkan jarak margin-top sebesar 2.1rem */
+}
+
+.img-model {
+    height: 200px;
+    /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover;
+    /* Memastikan gambar tidak terdistorsi */
+}
+
+.card {
+    height: 100%;
+    /* Pastikan card memiliki tinggi penuh */
+}

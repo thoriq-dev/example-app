@@ -1,0 +1,20 @@
+header.bg-dark {
+    height: 500px;
+    background-image: url("../img/models/tiggo-8pro-max.png");
+    background-size: contain; /* Memastikan gambar sepenuhnya terlihat */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+.highlight {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Bayangan hanya pada teks ini */
+}
+
+.price {
+    display: inline-block; /* Agar elemen harga dan teks 'per bulan' berada dalam satu baris */
+    font-size: 2rem; /* Ukuran font yang lebih besar untuk harga */
+}
+
+.star-purple {
+    color: purple; /* Ganti 'purple' dengan kode warna lain jika perlu */
+}

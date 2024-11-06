@@ -1,0 +1,13 @@
+main {
+    margin-top: 20px; /* Atur sesuai kebutuhan */
+}
+
+/* Tambahkan jarak antara footer dan konten */
+footer {
+    margin-top: 20px; /* Atur sesuai kebutuhan */
+}
+
+/* Tambahkan margin bawah pada card */
+.card {
+    margin-bottom: 1.5rem; /* Atur sesuai kebutuhan */
+}

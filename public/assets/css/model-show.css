@@ -1,0 +1,35 @@
+/* Menambah jarak antara navbar dan carousel */
+.carousel-inner {
+    margin-top: 10rem; /* Tambahkan margin-top sesuai kebutuhan */
+}
+
+/* Styling untuk Specifications dan Description agar lebih rapi dan di tengah */
+.container {
+    max-width: 800px; /* Menentukan lebar maksimal agar tidak terlalu lebar */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+/* Menambahkan padding kiri pada ul agar tidak terlalu mepet ke kiri */
+ul.list-unstyled {
+    padding-left: 20px; /* Atur jarak kiri sesuai dengan keinginan */
+}
+
+/* Optional: jika ingin lebih spesifik memberi padding pada setiap list item */
+ul.list-unstyled li {
+    padding-left: 10px; /* Atur jarak kiri pada setiap item */
+}
+
+p {
+    padding: 0 20px; /* Memberikan padding kiri dan kanan pada deskripsi agar tidak terlalu mepet */
+}

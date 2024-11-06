@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; /* Memastikan padding dan border ikut dihitung */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Memastikan halaman selalu minimal setinggi viewport */
+}
+
+main {
+    flex: 1; /* Membuat konten utama mengambil sisa ruang yang ada */
+    width: 100%; /* Menyesuaikan lebar konten */
+}
+
+/* Navbar */
+nav {
+    padding: 0; /* Menghilangkan jarak pada navbar */
+    display: flex;
+    justify-content: center; /* Isi navbar berada di tengah */
+    align-items: center;
+    position: fixed; /* Navbar tetap di bagian atas */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Menyimpan navbar di atas elemen lainnya */
+    width: 100%; /* Navbar menutupi seluruh lebar layar */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Footer memenuhi seluruh lebar halaman */
+    margin-top: auto; /* Memastikan footer selalu berada di bawah */
+}
+
+/* Utility */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #ccc;
+    transition: color 0.3s ease;
+}
